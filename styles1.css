@@ -3,8 +3,8 @@
     margin: auto;
 }
 #demo{
-    display: flex; /* make the container a flex container */
-    justify-content: center; /* center the child div horizontally */
+    display: flex; 
+    justify-content: center;
     align-items: center
 }
 #newtask{
