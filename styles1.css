@@ -1,0 +1,50 @@
+#bod{
+    width: 50%;
+    margin: auto;
+}
+#demo{
+    display: flex; /* make the container a flex container */
+    justify-content: center; /* center the child div horizontally */
+    align-items: center
+}
+#newtask{
+    width: 50%;
+    height: 20px;
+    margin-right: 10px;
+}
+#push{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(144, 215, 36);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.task-delete{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul{
+
+    list-style: none;
+}
+
+li{
+    
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
